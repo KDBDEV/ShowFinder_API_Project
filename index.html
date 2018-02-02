@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>ShowFinder Api Project</title>
+  <link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+  <div class="container">
+  <h1>Show Finder: Find concerts near you</h1>
+  <form action="#" name="searchForm" class="search">
+    <label for="search-band">Band:</label>
+    <input type="text" name="bandname" id="search-band" required/>
+    <label for="search-city">City:</label>
+    <input type="text" name="cityname" id="search-city" required/>
+    <button type="submit">Search</button>
+  </form>
+  <main role="main" class="js-output" aria-live="assertive" hidden></main>
+  </div>
+<script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+<script type="text/javascript" src="app.js"></script>
+</body>
+</html>
